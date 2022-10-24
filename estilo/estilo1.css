@@ -1,0 +1,49 @@
+*  {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Se pruede definir como first-child o primer elemento*/
+.form__input:first-child{
+    color: red;
+}
+/*O se puede colocar --active en la clase para seleccionar*/
+
+.form__input--active{
+    color: yellow;
+}
+/*Medidas 
+relactivas y figas 
+
+*/
+/*ejempli de medida figas
+.contact__p-h2{
+    font-size: 50px;
+}
+
+*/
+/*1em equivalen a 16em entonces  16*5=80px*/
+.contact__p-h2{
+    font-size: 5em;
+}
+
+/*el em se herada de su contenedor padre */
+
+.contact-form{
+    font-size: 25px;
+}
+.contact-form__p-h2{
+    font-size: 1em;
+}
+/*
+
+*/
+
+.form__p-h2{
+    font-size: 25px;
+    background-color: aquamarine;
+    width: 50vw;
+    height: 100vh;
+}
+
+/*Porcentaje %*/

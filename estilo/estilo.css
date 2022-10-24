@@ -68,12 +68,22 @@ b:hover{
 /*Especificidad */
 
 /*define el rango de jeraquia el cual toma el estilo 
-!important
-estilos en linea
-identificadores
-clases
+-!important
+-estilos en linea
+-identificadores
+-(clases
 pseudo-clases
-atributos 
-elementos
-pseudo-elemento 
+atributos )
+-(elementos
+pseudo-elemento )
 */
+#color-red{
+    color: blueviolet;
+}
+.color-red{
+    color: blue;
+}
+/*important tiene mayor prioridad */
+h3{
+    color: green !important
+}
