@@ -1,0 +1,79 @@
+
+ /* 
+ Para css se debe usar la siguiente estructura 
+ selector{
+    propiedad:valor;
+ }
+ */ 
+
+ /*Tipo de selectores 
+ selector universal, seleciona todos los elementos = *
+ejemplos :
+
+*{
+    propiedad : valor;
+}
+
+
+ */
+ *{
+    color: brown;
+}
+
+/*Seleccion de tipo : se puede dar estilos a cada tipo de elemento ejemplo h1-h2-p-img-from- */
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: green;
+}
+
+/* se seleciona por class se utiliza un punto y el nombre de la classe */
+.titulo-h3{
+color: blueviolet;
+}
+
+/*Se selleciona por id se usa el simbolo #segido del identificador 
+el cual debe ser unico */
+
+#id-element{
+    color: chartreuse;
+}
+
+/*Por atributo */
+
+[rancio="Sii"]{
+    color: darkorange;
+}
+
+/*Por desendiente */
+
+h2 p{
+    color: darkseagreen;
+}
+
+h2 b{
+    color: lawngreen;
+}
+
+/*por seudoclass
+cuando se genere un evento se llama al estilo ejemplo*/
+
+b:hover{
+    color: lightseagreen;
+}
+
+/*Especificidad */
+
+/*define el rango de jeraquia el cual toma el estilo 
+!important
+estilos en linea
+identificadores
+clases
+pseudo-clases
+atributos 
+elementos
+pseudo-elemento 
+*/
