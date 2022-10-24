@@ -1,0 +1,37 @@
+.cont-form{
+    font-size: 25px;
+}
+
+.cont-form__h2{
+    font-size: 2em;
+    font-family: 'Abril Fatface', cursive;
+    /* espacio total que ocupa una letra centrada*/
+    line-height: 1.9;
+    /*Grozor de la letra*/
+    font-weight: normal;
+   color: aqua;
+}
+.cont-form_h2-p{
+font-family: 'Abril Fatface', cursive;
+color: red;
+}
+
+/*Normalais
+con normalais se reinician los estilos 
+por defectos del navegador 
+normalize
+se descarga en la pagina 
+https://necolas.github.io/normalize.css/
+
+importante agregar 
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img{
+      max-width: 100%;
+}
+*/
