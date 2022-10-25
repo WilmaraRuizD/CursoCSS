@@ -1,0 +1,59 @@
+*{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+/*Para cambiar el comportamiento por defecto de un elemento 
+en block se usa la propiedad display : inline
+
+*/
+/*
+h2{
+    display: inline;
+    height: 400px;
+    width: 400px;
+}
+
+p{
+    height: 400px;
+    width: 400px;
+}*/
+/*Propiedades de las cajas */
+h2{
+    background-color: red;
+    display: inline-block;
+    padding: 100px;
+    /*Para no deformar las cajas y que solo sea el 100%*/
+    box-sizing: border-box;
+    /*centra el texto*/
+    text-align: center;
+    /* espacion entre dos contenedores */
+    margin: 20px 10px;
+    /*redondear el borde, se puede hacer en px en % o en em*/
+    border-radius: 2em;
+    /*border tamaño estilo y color*/
+    border:5px solid blueviolet;
+
+    /*sombra a la caja*/
+    box-shadow: 20px 40px 15px 10px #000;
+
+    text-shadow:2px 2px 7px  #fff,2px 2px 7px  #fff;
+    transform: rotate(45deg);
+
+    /*box model ,las cajas la conforman las siguientes propiedades 
+content line-height =modifica el tamaño de la linea
+padding paddding
+border border
+margin margin */
+    /*
+       padding: 50px 20px;
+
+
+    padding: top 50px; ;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: bottom 20px; ;
+*/
+}
+
+/*las distancia que hay entre dos cajas */
