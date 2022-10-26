@@ -1,0 +1,163 @@
+*{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.contenedor{
+width: 300px;
+height: 300px;
+background: blue;
+margin: 40px;
+position: relative;
+
+}
+
+.hijo{
+    width: 120px;
+    height: 120px;
+    background: orange;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    /*Solo se puede dar una posicion por debajo del padre cuando el z-index del padre no estas definido */
+    z-index: -1;
+}
+/*Position absulute*/
+
+div{
+    width: 160px;
+    height: 160px;
+    display: block;
+    position: absolute;
+}
+div div{
+    height: 100px;
+    width: 100px;
+    background:yellow;
+}
+.contenedor1{
+
+    position: relative;
+    border: 4px solid red;
+   /*
+    margin: 50px auto;*/
+    height: 450px;
+    width: 450px;
+    background: green;
+
+}
+
+
+.caja1{
+   /*left:0;*/
+   /* top: 50px;
+  outline: 10px solid blue;*/
+}
+/*position absolute se adjusta el valor a la caja */
+.caja2{
+    right: 0;
+
+    /*La opacidad iria desde 0 al 1 */
+    /*opacity: 0.4;*/
+   /* margin-left: 300px;*/
+}
+.caja3{
+   bottom: 0; 
+    /*background: greenyellow;*/
+
+}
+
+.caja4{
+    right: 0;
+    bottom: 0;
+ /*   background:purple;*/
+}
+/*Para centralizar una caja en un contenedor  */
+.caja5{
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
+
+.contenedor2{
+    position: relative;
+    background: purple;
+    height: 450px;
+    width: 450px;
+    border:4px solid red;
+   
+}
+
+.caja6{
+  left: 0;
+}
+.caja7{
+    right: 220px;
+}
+.caja8{
+    right: 110px;
+}
+.caja9{
+    right: 0;
+}
+.caja10{
+    top: 110px;
+    left: 0;
+    
+}
+.caja11{
+    top: 110px;
+    right: 220px;
+}
+.caja12{
+    top: 110px;
+    right: 110px;
+}
+
+.caja13{
+    top: 110px;
+    right: 0;
+}
+
+
+.caja14{
+    top: 220px;
+    left: 0;
+}
+
+.caja15{
+    top: 220px;
+    right: 220px;
+    
+}
+.caja16{
+    top: 220px;
+    right: 110px;
+}
+
+.caja17{
+    top: 220px;
+    right: 0px;
+}
+
+.caja18{
+    top: 330px;
+   left: 0;
+}
+
+.caja19{
+    top: 330px;
+    right: 220px;
+}
+.caja20{
+    top: 330px;
+    right: 110px;
+}
+.caja21{
+    top: 330px;
+   right: 0 ;
+}
+

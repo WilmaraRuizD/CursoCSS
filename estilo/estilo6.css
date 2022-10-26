@@ -1,0 +1,71 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-gap: 50px;
+  padding: 10px;}
+
+.contenedor {
+   display: inline;
+    padding-top: 50px;
+    font-size: 1.2em;
+    font-size: 1.2em;
+    display: grid;
+    min-height: 30vh;
+    justify-content: center;
+   /*align-content: center;*/
+  }
+  .contenedor1 {
+    display: inline;
+    padding-top: 50px;
+    font-size: 1.2em;
+    font-size: 1.2em;
+    display: grid;
+    min-height: 30vh;
+    justify-content: center;
+   /*align-content: center;*/
+  }
+  .contenedor2 {
+    display: inline;
+    padding-top: 50px;
+    font-size: 1.2em;
+    font-size: 1.2em;
+    display: grid;
+    min-height: 30vh;
+    justify-content: center;
+   /*align-content: center;*/
+  }
+  .heart{
+    --size: 20px;
+    --color: red;
+    transform:rotate(45deg);
+    animation:beat 1s infinite alternate ease-in-out;
+  }
+  @keyframes beat{
+    to{
+      transform: rotate(45deg) scale(1.05);
+    }
+  }
+  
+  .heart,
+  .heart::before,
+  .heart::after{
+      width: var(--size);
+      height: var(--size);
+      background:var(--color);
+  }
+  .heart::before,
+  .heart::after{
+    content:'';
+    display: block;
+    border-radius:50%;
+  }
+  .heart::before{
+    margin-top: calc(var(--size)*-.5);
+   
+  }
+  .heart::after{
+    margin-top: calc(var(--size)* -0.5);
+    margin-left: calc(var(--size)* -0.5);
+  }
+  

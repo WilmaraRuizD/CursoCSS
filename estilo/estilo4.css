@@ -1,0 +1,73 @@
+*{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+/*  Outline 
+.caja1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: auto;
+    outline:5px solid blue;
+    box-sizing: content-box;
+}
+
+.caja2{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+   
+}*/
+
+    /*  margin: auto; 
+    centra las caja con un margen a la derecha y a la izquierda
+    se le resta el valor de la caja*/
+
+    div{
+        width: 120px;
+        height: 120px;
+       /* background: yellow;*/
+        display: block;
+       /* display: inline-block;*/
+       text-align: center;
+    }
+   /* 
+.caja1{
+    outline: 5px solid red;
+}*/
+
+/*posiciona el elementos y darle unas propiedades 
+RELATIVE
+ABSOLUTE
+FIXED
+STICKY
+*/
+.caja1{
+background: yellow;
+top:20px;
+}
+.caja2{
+    /*Conserva su espacion */
+background: blue;
+position: relative;
+/*propiedades mas relevantes son top -left */
+/*propiedades mas relevantes son top -left */
+top:40px;
+left:20px ;
+right:100px ;
+bottom: 20px;
+/*Para posicionar la caja de forma relativa en el eje Z
+10 espacios para colocar elementos */
+z-index: 1;
+}
+.caja3{
+background: violet;
+position: relative;
+
+}
+.caja4{
+background: greenyellow;
+}
+/*Position afecta el flujo de html, static no esta posicionados */
+

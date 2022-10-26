@@ -1,0 +1,35 @@
+body{
+    background: #B3d7e3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+#laFecha{
+    width: 200px;
+    padding: 5px;
+    font-size: 12px;
+    background: #000000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#info{
+    margin: 4px;
+    padding: 5px;
+    font-size: 15px;
+    background: #C91028;
+    width: 100px;
+    height: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    border:  1px solid black;
+}
+
+#temporizar{
+    width: 200px;
+    padding: 5px;
+    font-size: 12px;
+    background: #900990;
+    padding: 5px;
+    border-radius: 5px;}
