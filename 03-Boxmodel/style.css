@@ -1,0 +1,39 @@
+.caja, .caja1{
+  background-color: yellow;
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  width: 200px;
+  height: 300px;
+  padding: 30px 50px 70px ;
+  
+  
+
+/*shorthand border-width border-width: 10px;
+
+border-style:solid;
+border-color: purple;
+  
+*/
+border-top-width: 30px;
+border-right-width: 10px;
+border-bottom-width: 20px;
+border-left-width: 5px;
+
+border-top-style: dashed;
+border-right-style: dotted;
+border-bottom-style: double;
+border-left-style: groove;
+
+border-top-color: rebeccapurple;
+border-right-color: blue;
+border-bottom-color: red;
+border-left-color: aqua;
+}
+
+.caja1{
+margin-top: 20px;
+margin-right:auto;
+margin-bottom: 60px;
+margin-left: auto;
+}
