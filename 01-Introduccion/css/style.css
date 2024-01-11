@@ -1,0 +1,45 @@
+/*selector de tipo
+p{
+  font-size: 30px;
+  color: red;
+}
+*/
+/*selector de clase
+
+.titulo{
+color:brown;
+font-size: 30px;
+border: 1px solid black;
+}
+
+.negrita{
+  font-weight: bold;
+}
+
+/*selector de identificador unic
+
+#titulo{
+  color: steelblue;
+  font-size: 50px;
+}
+
+
+
+*{
+  color: fuchsia;
+  font-size: 30px;
+}
+
+*/
+
+.abuelo .titulo{
+  color: yellow;
+}
+.padre .titulo{
+  color: rebeccapurple;
+}
+/* >mayor que seleciona a los hijos directos */
+
+.abuelo> .titulo{
+  color: blue;
+}

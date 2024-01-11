@@ -1,0 +1,25 @@
+/*cascada
+
+.title{
+  color:blue;
+  color: red;
+}
+
+h1{
+  color: tomato;
+}*/
+
+/* 1-Selector de tipo,pseudoelemento :: */
+/*10 -Selector de clase,Pseudoclasses :,[] */
+/*100 -selector de id */
+/*La herencia es la capacidad de heredar de padre a hijo pero si defino el hijo se anula la herencia */
+body{
+  font-family: Arial;
+  color: tomato;
+}
+
+h2{font-family: cursive;}
+
+a{
+  color: inherit;
+}
